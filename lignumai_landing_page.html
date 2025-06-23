@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LignumAI – From Lines to Meaning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f9fb;
+      color: #1f2937;
+    }
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin: 0.5rem 0;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.75rem;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "\2022";
+      color: #3b82f6;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border: 1px solid #d1d5db;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    form button {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LignumAI</h1>
+    <p><strong>From lines to meaning.</strong></p>
+    <p>AI that understands technical drawings</p>
+    <button onclick="document.getElementById('signup').scrollIntoView({ behavior: 'smooth' })">Join Early Access</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>What is LignumAI?</h2>
+      <p>LignumAI is an AI model built to read and understand technical drawings. Just as ChatGPT understands language, LignumAI interprets architectural blueprints, engineering sketches, and schematic plans. It identifies elements, structures, annotations, and context — transforming static drawings into usable, intelligent data.</p>
+    </section>
+
+    <section>
+      <h2>Who It's For</h2>
+      <ul>
+        <li>Architects & Designers</li>
+        <li>Engineers</li>
+        <li>Construction Professionals</li>
+        <li>Municipalities & Compliance</li>
+        <li>Tech Integrators</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li>Symbol & Layer Recognition</li>
+        <li>Dimensional Analysis</li>
+        <li>Data Structuring</li>
+        <li>API-Ready</li>
+        <li>Multi-format Input</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Why LignumAI?</h2>
+      <p><em>Seeing beyond the lines.</em> LignumAI helps teams save time, reduce errors, digitize archives, and unlock insights hidden in technical visuals — without manual interpretation.</p>
+    </section>
+
+    <section id="signup">
+      <h2>Get Early Access</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="company" placeholder="Company Name">
+        <textarea name="usecase" placeholder="How would you use LignumAI?" rows="4"></textarea>
+        <button type="submit">Apply for Early Access</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 LignumAI. All rights reserved.
+  </footer>
+</body>
+</html>
